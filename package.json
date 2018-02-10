@@ -1,19 +1,19 @@
 {
-    "name": "lit-html",
-    "displayName": "lit-html",
-    "description": "Syntax highlighting for html inside of JavaScript and TypeScript tagged template strings",
-    "version": "1.2.0",
-    "publisher": "bierner",
-    "icon": "docs/logo.png",
+    "name": "vue-inline-template",
+    "displayName": "vue-inline-template",
+    "description": "Syntax highlighting for vue inline template inside of JavaScript and TypeScript tagged template strings",
+    "version": "1.0.0",
+    "publisher": "faisalhakim47",
+    "icon": "docs/vue-logo.png",
     "galleryBanner": {
         "color": "#fcfcfc",
         "theme": "light"
     },
     "repository": {
-        "url": "https://github.com/mjbvz/vscode-lit-html.git"
+        "url": "https://github.com/faisalhakim47/vscode-vue-inline-template"
     },
     "bugs": {
-        "url": "https://github.com/mjbvz/vscode-lit-html/issues"
+        "url": "https://github.com/faisalhakim47/vscode-vue-inline-template/issues"
     },
     "engines": {
         "vscode": "^1.15.0"
@@ -22,11 +22,13 @@
         "Languages"
     ],
     "keywords": [
-        "lit-html",
+        "vue-inline-template",
+        "vue",
+        "inline",
+        "template",
         "javascript",
         "typescript",
-        "html",
-        "template"
+        "html"
     ],
     "contributes": {
         "grammars": [
@@ -39,8 +41,8 @@
                     "source.tsx",
                     "text.html.basic"
                 ],
-                "scopeName": "inline.lit-html",
-                "path": "./syntaxes/lit-html.json",
+                "scopeName": "inline.vue-inline-template",
+                "path": "./syntaxes/vue-inline-template.json",
                 "embeddedLanguages": {
                     "meta.embedded.block.html": "html"
                 }
@@ -54,8 +56,8 @@
                     "source.tsx",
                     "text.html.basic"
                 ],
-                "scopeName": "inline.lit-html.quoted.string.injection",
-                "path": "./syntaxes/lit-html-quoted-string-injection.json",
+                "scopeName": "inline.vue-inline-template.quoted.string.injection",
+                "path": "./syntaxes/vue-inline-template-quoted-string-injection.json",
                 "embeddedLanguages": {
                     "meta.template.expression.ts": "typescript"
                 }

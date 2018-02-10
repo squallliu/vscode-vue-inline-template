@@ -1,4 +1,10 @@
-# Change Log
+# vue-inline-template
+
+## 1.0.0 - 10 February 2018
+- basic vue template detection
+- use vue logo
+
+# lit-html - Change Log
 
 ## 1.2.0 - January 29, 2018
 - Yo I heard you like html so I added syntax highlighting for lit html templates inside of html script blocks
