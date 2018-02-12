@@ -1,5 +1,8 @@
 # vue-inline-template
 
+## 1.0.1 - 10 February 2018
+- fix display name
+
 ## 1.0.0 - 10 February 2018
 - basic vue template detection
 - use vue logo

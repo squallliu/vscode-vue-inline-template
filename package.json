@@ -1,13 +1,16 @@
 {
     "name": "vue-inline-template",
-    "displayName": "vue-inline-template",
+    "displayName": "Vue Inline Template",
     "description": "Syntax highlighting for vue inline template inside of JavaScript and TypeScript tagged template strings",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "publisher": "faisalhakim47",
     "icon": "docs/vue-logo.png",
     "galleryBanner": {
         "color": "#fcfcfc",
         "theme": "light"
+    },
+    "scripts": {
+        "build": "vsce package"
     },
     "repository": {
         "url": "https://github.com/faisalhakim47/vscode-vue-inline-template"
