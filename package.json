@@ -1,8 +1,9 @@
 {
     "name": "vue-inline-template",
+    "private": true,
     "displayName": "Vue Inline Template",
     "description": "Syntax highlighting for vue inline template inside of JavaScript and TypeScript tagged template strings",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "publisher": "squall",
     "icon": "docs/vue-logo.png",
     "galleryBanner": {
@@ -57,8 +58,8 @@
                     "source.tsx",
                     "text.html.basic"
                 ],
-                "scopeName": "inline.vue-inline-template.quoted.string.injection",
-                "path": "./syntaxes/vue-inline-template-quoted-string-injection.json",
+                "scopeName": "inline.vue-inline-template.string.injection",
+                "path": "./syntaxes/vue-inline-template-string-injection.json",
                 "embeddedLanguages": {
                     "meta.template.expression.ts": "typescript"
                 }
