@@ -3,7 +3,7 @@
     "private": true,
     "displayName": "Vue Inline Template",
     "description": "Syntax highlighting for vue inline template inside of JavaScript and TypeScript tagged template strings",
-    "version": "1.1.1",
+    "version": "1.1.6",
     "publisher": "squall",
     "icon": "docs/vue-logo.png",
     "galleryBanner": {
@@ -11,6 +11,7 @@
         "theme": "light"
     },
     "scripts": {
+        "vscode:prepublish": "tsc -p ./",
         "build": "vsce package"
     },
     "repository": {
@@ -25,6 +26,13 @@
     "categories": [
         "Programming Languages"
     ],
+    "activationEvents": [
+        "onLanguage:javascript",
+        "onLanguage:javascriptreact",
+        "onLanguage:typescript",
+        "onLanguage:typescriptreact"
+    ],
+    "main": "./out/index.js",
     "keywords": [
         "vue",
         "template",
@@ -76,6 +84,9 @@
         "typescript-lit-html-plugin": "^0.9.0"
     },
     "devDependencies": {
-        "vsce": "^1.88.0"
+        "@types/vscode": "^1.29.0",
+        "typescript": "^4.3.2",
+        "vsce": "^1.88.0",
+        "vscode-test": "^1.5.2"
     }
 }
