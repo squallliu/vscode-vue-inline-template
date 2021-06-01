@@ -2,8 +2,8 @@
     "name": "vue-inline-template",
     "displayName": "Vue Inline Template",
     "description": "Syntax highlighting for vue inline template inside of JavaScript and TypeScript tagged template strings",
-    "version": "1.0.2",
-    "publisher": "faisalhakim47",
+    "version": "1.1.0",
+    "publisher": "squall",
     "icon": "docs/vue-logo.png",
     "galleryBanner": {
         "color": "#fcfcfc",
@@ -13,16 +13,16 @@
         "build": "vsce package"
     },
     "repository": {
-        "url": "https://github.com/faisalhakim47/vscode-vue-inline-template"
+        "url": "https://github.com/squallliu/vscode-vue-inline-template"
     },
     "bugs": {
-        "url": "https://github.com/faisalhakim47/vscode-vue-inline-template/issues"
+        "url": "https://github.com/squallliu/vscode-vue-inline-template/issues"
     },
     "engines": {
-        "vscode": "^1.15.0"
+        "vscode": "^1.29.0"
     },
     "categories": [
-        "Languages"
+        "Programming Languages"
     ],
     "keywords": [
         "vue",
@@ -66,11 +66,15 @@
         ],
         "typescriptServerPlugins": [
             {
-                "name": "typescript-lit-html-plugin"
+                "name": "typescript-lit-html-plugin",
+                "enableForWorkspaceTypeScriptVersions": true
             }
         ]
     },
     "dependencies": {
-        "typescript-lit-html-plugin": "0.2.0"
+        "typescript-lit-html-plugin": "^0.9.0"
+    },
+    "devDependencies": {
+        "vsce": "^1.88.0"
     }
 }
