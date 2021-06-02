@@ -12,7 +12,8 @@
     },
     "scripts": {
         "vscode:prepublish": "tsc -p ./",
-        "build": "vsce package"
+        "build": "vsce package",
+        "clean": "rm -rf ./out && rm -f *.vsix"
     },
     "repository": {
         "url": "https://github.com/squallliu/vscode-vue-inline-template"
