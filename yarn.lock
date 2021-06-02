@@ -12,7 +12,7 @@
   resolved "https://nexus.p.whcyit.com/repository/npm-group/@tootallnate/once/-/once-1.1.2.tgz#ccb91445360179a04e7fe6aff78c00ffc1eeaf82"
   integrity sha1-zLkURTYBeaBOf+av94wA/8Hur4I=
 
-"@types/vscode@^1.56.0":
+"@types/vscode@^1.29.0":
   version "1.56.0"
   resolved "https://nexus.p.whcyit.com/repository/npm-group/@types/vscode/-/vscode-1.56.0.tgz#2a75ee6d66e529295648b0b6ee43824564ed9c1a"
   integrity sha1-KnXubWblKSlWSLC27kOCRWTtnBo=
@@ -132,7 +132,7 @@ cheerio-select@^1.4.0:
     domhandler "^4.2.0"
     domutils "^2.6.0"
 
-cheerio@^1.0.0-rc.1:
+cheerio@^1.0.0-rc.9:
   version "1.0.0-rc.9"
   resolved "https://nexus.p.whcyit.com/repository/npm-group/cheerio/-/cheerio-1.0.0-rc.9.tgz#a3ae6b7ce7af80675302ff836f628e7cb786a67f"
   integrity sha1-o65rfOevgGdTAv+Db2KOfLeGpn8=
@@ -696,14 +696,14 @@ util-deprecate@~1.0.1:
   resolved "https://nexus.p.whcyit.com/repository/npm-group/util-deprecate/-/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
   integrity sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8=
 
-vsce@^1.88.0:
-  version "1.88.0"
-  resolved "https://nexus.p.whcyit.com/repository/npm-group/vsce/-/vsce-1.88.0.tgz#748dc9f75996d97a5953408848c56c4c1b4dca6b"
-  integrity sha1-dI3J91mW2XpZU0CISMVsTBtNyms=
+vsce@^1.91.0:
+  version "1.91.0"
+  resolved "https://nexus.p.whcyit.com/repository/npm-group/vsce/-/vsce-1.91.0.tgz#e58cdfa364fa553cd8b623779323f501f6aec0ec"
+  integrity sha1-5Yzfo2T6VTzYtiN3kyP1AfauwOw=
   dependencies:
     azure-devops-node-api "^10.2.2"
     chalk "^2.4.2"
-    cheerio "^1.0.0-rc.1"
+    cheerio "^1.0.0-rc.9"
     commander "^6.1.0"
     denodeify "^1.2.1"
     glob "^7.0.6"

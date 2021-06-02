@@ -13,17 +13,15 @@ export async function activate(context: vscode.ExtensionContext) {
   if (!extension.exports || !extension.exports.getAPI) {
     return;
   }
+
   const api = extension.exports.getAPI(0);
   if (!api) {
     return;
   }
 
-  synchronizeConfiguration(api);
-}
-
-function synchronizeConfiguration(api: any) {
   api.configurePlugin(pluginId, {
     "tags": [
+      ""
     ]
   });
 }

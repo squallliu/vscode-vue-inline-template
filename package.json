@@ -3,7 +3,7 @@
     "private": true,
     "displayName": "Vue Inline Template",
     "description": "Syntax highlighting for vue inline template inside of JavaScript and TypeScript tagged template strings",
-    "version": "1.1.6",
+    "version": "1.1.7",
     "publisher": "squall",
     "icon": "docs/vue-logo.png",
     "galleryBanner": {
@@ -86,7 +86,7 @@
     "devDependencies": {
         "@types/vscode": "^1.29.0",
         "typescript": "^4.3.2",
-        "vsce": "^1.88.0",
+        "vsce": "^1.91.0",
         "vscode-test": "^1.5.2"
     }
 }
